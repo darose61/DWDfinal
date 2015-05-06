@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ '.', null ]
+5 verbose cache add spec .
+6 silly cache add parsed spec { raw: '.',
+6 silly cache add   scope: null,
+6 silly cache add   name: null,
+6 silly cache add   rawSpec: '.',
+6 silly cache add   spec: '/Users/dariabojko/Documents/ITP/Semester 2/Dynamic Web/Final_example/FINAL',
+6 silly cache add   type: 'directory' }
+7 verbose addLocalDirectory /Users/dariabojko/.npm/final/0.0.1/package.tgz not in flight; packing
+8 verbose tar pack [ '/Users/dariabojko/.npm/final/0.0.1/package.tgz',
+8 verbose tar pack   '/Users/dariabojko/Documents/ITP/Semester 2/Dynamic Web/Final_example/FINAL' ]
+9 verbose tarball /Users/dariabojko/.npm/final/0.0.1/package.tgz
+10 verbose folder /Users/dariabojko/Documents/ITP/Semester 2/Dynamic Web/Final_example/FINAL
+11 info prepublish final@0.0.1
+12 verbose addLocalTarball adding from inside cache /Users/dariabojko/.npm/final/0.0.1/package.tgz
+13 silly cache afterAdd final@0.0.1
+14 verbose afterAdd /Users/dariabojko/.npm/final/0.0.1/package/package.json not in flight; writing
+15 verbose afterAdd /Users/dariabojko/.npm/final/0.0.1/package/package.json written
+16 silly install resolved [ { name: 'final',
+16 silly install resolved     version: '0.0.1',
+16 silly install resolved     private: true,
+16 silly install resolved     scripts: { start: 'node ./bin/www' },
+16 silly install resolved     dependencies:
+16 silly install resolved      { express: '~4.0.0',
+16 silly install resolved        'express-stormpath': '^1.0.4',
+16 silly install resolved        cloudinary: '^1.2.1',
+16 silly install resolved        'serve-favicon': '*',
+16 silly install resolved        morgan: '~1.0.0',
+16 silly install resolved        'cookie-parser': '~1.0.1',
+16 silly install resolved        'body-parser': '~1.0.0',
+16 silly install resolved        debug: '~0.7.4',
+16 silly install resolved        jade: '*',
+16 silly install resolved        mongodb: '~1.4',
+16 silly install resolved        mongoskin: '*',
+16 silly install resolved        multer: '^0.1.8' },
+16 silly install resolved     readme: '<<<<<<< HEAD\n# DWDfinal2\n=======\n# DWDfinal\n>>>>>>> 7310212d0eac12c2f796b0dc020207605a752bfb\n',
+16 silly install resolved     readmeFilename: 'README.md',
+16 silly install resolved     gitHead: '5d108fcdc53fa5a7354e6f1135a5c4536a82d4f0',
+16 silly install resolved     description: '<<<<<<< HEAD # DWDfinal2 ======= # DWDfinal >>>>>>> 7310212d0eac12c2f796b0dc020207605a752bfb',
+16 silly install resolved     _id: 'final@0.0.1',
+16 silly install resolved     _shasum: 'd84df3d2ae2cda8ac0677e41489f6540222d8e12',
+16 silly install resolved     _from: '../../Users/dariabojko/Documents/ITP/Semester 2/Dynamic Web/Final_example/FINAL',
+16 silly install resolved     _resolved: 'file:../../Users/dariabojko/Documents/ITP/Semester 2/Dynamic Web/Final_example/FINAL' } ]
+17 info install final@0.0.1 into /usr/local/lib
+18 info installOne final@0.0.1
+19 verbose installOne of final to /usr/local/lib not in flight; installing
+20 verbose lock using /Users/dariabojko/.npm/_locks/final-8ee2c69525f744cb.lock for /usr/local/lib/node_modules/final
+21 silly install write writing final 0.0.1 to /usr/local/lib/node_modules/final
+22 silly cache addNamed cb final@0.0.1
+23 verbose unbuild lib/node_modules/final
+24 silly gentlyRm /usr/local/lib/node_modules/final is being purged from base /usr/local
+25 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/final
+26 verbose tar unpack /Users/dariabojko/.npm/final/0.0.1/package.tgz
+27 verbose tar unpacking to /usr/local/lib/node_modules/final
+28 silly gentlyRm /usr/local/lib/node_modules/final is being purged
+29 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/final
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 error tar.unpack untar error /Users/dariabojko/.npm/final/0.0.1/package.tgz
+32 verbose unlock done using /Users/dariabojko/.npm/_locks/final-8ee2c69525f744cb.lock for /usr/local/lib/node_modules/final
+33 verbose fstream_path /usr/local/lib/node_modules/final
+34 verbose fstream_type Directory
+35 verbose fstream_class DirWriter
+36 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/final'
+36 verbose stack     at Error (native)
+37 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+37 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+37 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+38 verbose cwd /Users/dariabojko/Documents/ITP/Semester 2/Dynamic Web/Final_example/FINAL
+39 error Darwin 14.1.0
+40 error argv "node" "/usr/local/bin/npm" "install" "-g"
+41 error node v0.12.2
+42 error npm  v2.7.4
+43 error path /usr/local/lib/node_modules/final
+44 error code EACCES
+45 error errno -13
+46 error Error: EACCES, mkdir '/usr/local/lib/node_modules/final'
+46 error     at Error (native)
+46 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/final']
+46 error   errno: -13,
+46 error   code: 'EACCES',
+46 error   path: '/usr/local/lib/node_modules/final',
+46 error   fstream_type: 'Directory',
+46 error   fstream_path: '/usr/local/lib/node_modules/final',
+46 error   fstream_class: 'DirWriter',
+46 error   fstream_stack:
+46 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+46 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+46 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+47 error Please try running this command again as root/Administrator.
+48 verbose exit [ -13, true ]
+49 verbose unbuild lib/node_modules/final
+50 silly gentlyRm /usr/local/lib/node_modules/final is being purged from base /usr/local
+51 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/final
