@@ -1,0 +1,22 @@
+{
+  "name": "final",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "express-stormpath": "^1.0.4",
+    "cloudinary": "^1.2.1",
+    "serve-favicon": "*",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "*",
+    "mongodb": "~1.4",
+    "mongoskin": "*",
+    "multer": "^0.1.8"
+  }
+}
